@@ -8,10 +8,7 @@ const app = express();
 // app.use(cors());
 
 
-app.use(cors({
-    origin: "https://chatbot-dhys.vercel.app/",
-    credentials: true
-}));
+app.use(cors());
 
 app.use(express.json());
 
