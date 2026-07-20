@@ -131,7 +131,7 @@ const copyMessage = (text, index) => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://chatbot-1-p57j.onrender.com/api/chat", {
+      const response = await fetch("https://chatbot-2-ye8f.onrender.com/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
